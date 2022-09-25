@@ -4,16 +4,28 @@
     </head>
     <body>
         <header>
-            <h2>App Lista de SuperMercado</h2>
+            <h2>App Lista de SuperMercado - Guilherme Januário</h2>
         </header>
         <div class="lista-cadastro">
             <input type="text" placeholder="nome do produto..." name="nome_produto" />
-            <input type="text" placeholder="valor do produto..." name="nome_produto" />
+            <input type="number" name="price" step="0.01" title="Você deve usar um número com 2 casas decimal" />
             <input type="submit" name="acao" value="Cadastrar" />
-
         </div>
-        <script>
+
+        <div class="lista-produtos">
+           
+        </div>
+
+        <div class="soma-produto">
+            <h1>Total: R$0</h1>
+        </div>
+        <div>
+        <button class="botao-limpar" name="limpar"><h2>Limpar </h2></button>
+        </div>
+        <script src="supermercado.js">
+    
 
         </script>
     </body>
 </html>
+
